@@ -4,8 +4,13 @@
   "description": "[![Actions Status](https://github.com/RenaSaha/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/RenaSaha/frontend-project-44/actions)",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js"
-  },
+    "brain-calc": "bin/brain-calc.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-games": "bin/brain-games.js",
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-primeNumber": "bin/brain-primeNumber.js",
+    "brain-progression": "bin/brain-progression.js"
+   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
