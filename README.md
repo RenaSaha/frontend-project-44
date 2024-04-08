@@ -3,6 +3,7 @@
 
 
 <a href="https://codeclimate.com/github/RenaSaha/frontend-project-44"></a>
+<a href="https://codeclimate.com/github/RenaSaha/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/2a5cd06baa7095b55123/maintainability" /></a>
 
 <h2 font-size="24px">Описание проекта:</h2>
 «Игры разума» — это набор из пяти консольных игр. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново.
