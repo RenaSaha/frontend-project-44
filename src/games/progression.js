@@ -1,11 +1,10 @@
 import getRandomInt from '../utils.js';
-import readlineSync from 'readline-sync';
 import runGameLogic from '../index.js';
 
 const description = 'What number is missing in the progression?';
 
 const getArithmeticProgression = () => {
-  const startNumber = Number(getRandomInt(1,100));
+  const startNumber = Number(getRandomInt(1, 100));
   const stepProgression = Number(getRandomInt(1, 5));
   let nextNumber = startNumber + stepProgression;
   const lengthProgression = Number(getRandomInt(5, 10));

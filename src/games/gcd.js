@@ -1,5 +1,4 @@
 import getRandomInt from '../utils.js';
-import readlineSync from 'readline-sync';
 import runGameLogic from '../index.js';
 
 const description = 'Find the greatest common divisor of given numbers.';
@@ -20,6 +19,5 @@ const getGameGCD = () => {
 
   return [gameQuestion, answerCorrect];
 };
-
 
 export default () => runGameLogic(description, getGameGCD);
